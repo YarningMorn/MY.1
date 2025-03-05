@@ -3,87 +3,140 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Morning Yarn - Business News for Australia & NZ</title>
+    <title>Morning Yarn - Business & Finance News</title>
     <style>
-        body {
-            font-family: Arial, sans-serif;
+        * {
             margin: 0;
             padding: 0;
-            text-align: center;
+            box-sizing: border-box;
+            font-family: Arial, sans-serif;
+        }
+
+        body {
             background-color: #f5f1e4;
             color: #2e604a;
+            text-align: center;
         }
+
         header {
             background-color: #2e604a;
             color: white;
-            padding: 20px;
-            font-size: 24px;
+            padding: 15px 0;
+            font-size: 22px;
+            font-weight: bold;
         }
-        .container {
-            max-width: 800px;
-            margin: auto;
-            padding: 20px;
-        }
-        .section {
+
+        .hero {
+            padding: 50px 20px;
             background-color: #e0dcc3;
-            padding: 20px;
-            margin: 20px 0;
-            border-radius: 5px;
         }
+
+        .hero h1 {
+            font-size: 42px;
+            margin-bottom: 10px;
+        }
+
+        .hero p {
+            font-size: 18px;
+            margin-bottom: 20px;
+        }
+
         .signup {
             margin-top: 20px;
-            padding: 20px;
-            background-color: #e0dcc3;
-            border-radius: 5px;
         }
+
         input[type="email"] {
-            padding: 10px;
-            width: 70%;
+            padding: 12px;
+            width: 60%;
+            border: 2px solid #2e604a;
+            border-radius: 5px;
             margin-right: 10px;
         }
+
         button {
-            padding: 10px 15px;
+            padding: 12px 18px;
             background-color: #2e604a;
             color: white;
             border: none;
             cursor: pointer;
+            border-radius: 5px;
+            font-size: 16px;
         }
+
+        .features {
+            padding: 40px 20px;
+            background-color: #f5f1e4;
+        }
+
+        .features h2 {
+            font-size: 32px;
+            margin-bottom: 20px;
+        }
+
+        .feature-item {
+            margin-bottom: 30px;
+            font-size: 18px;
+        }
+
+        .cta-section {
+            padding: 50px 20px;
+            background-color: #e0dcc3;
+        }
+
+        .cta-section h2 {
+            font-size: 28px;
+            margin-bottom: 15px;
+        }
+
+        .cta-section button {
+            margin-top: 10px;
+            font-size: 18px;
+        }
+
         footer {
-            margin-top: 20px;
-            padding: 10px;
+            padding: 20px;
             background-color: #2e604a;
             color: white;
         }
+
         a {
             color: white;
             text-decoration: none;
+            margin: 0 15px;
         }
     </style>
 </head>
 <body>
-    <header>Morning Yarn</header>
-    <div class="container">
-        <h1>Your Daily Business News, Simplified.</h1>
-        <p>Stay updated with the latest business and finance news in Australia & New Zealand. No fluff, just the key insights.</p>
-        
-        <div class="signup">
-            <h2>Subscribe to Our Newsletter</h2>
-            <input type="email" placeholder="Enter your email" required>
-            <button>Subscribe</button>
-        </div>
 
-        <div class="section">
-            <h2><a href="about.html">About</a></h2>
-        </div>
+<header>
+    Morning Yarn
+</header>
 
-        <div class="section">
-            <h2><a href="contact.html">Contact</a></h2>
-        </div>
+<section class="hero">
+    <h1>Spinning the Day’s Business News into a Story You’ll Actually Read</h1>
+    <p>Morning Yarn delivers concise, witty, and insightful updates every Monday, Wednesday, and Friday.</p>
+    <div class="signup">
+        <input type="email" placeholder="Enter your email" required>
+        <button>Subscribe</button>
     </div>
+</section>
 
-    <footer>
-        <p>Spinning the Day’s Business News into a Story You’ll Actually Read</p>
-        <p>&copy; 2025 Morning Yarn | <a href="about.html">About</a> | <a href="contact.html">Contact</a></p>
-    </footer>
+<section class="features">
+    <h2>Why Subscribe?</h2>
+    <div class="feature-item">✅ No fluff—just the key insights you need.</div>
+    <div class="feature-item">✅ A fresh, witty take on business news.</div>
+    <div class="feature-item">✅ Stay ahead with quick, digestible updates.</div>
+</section>
+
+<section class="cta-section">
+    <h2>Join 1000s of Aussies & Kiwis Staying Informed</h2>
+    <button>Subscribe Now</button>
+</section>
+
+<footer>
+    <p>&copy; 2025 Morning Yarn</p>
+    <a href="about.html">About</a> | <a href="contact.html">Contact</a>
+</footer>
+
 </body>
 </html>
